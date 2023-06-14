@@ -7,13 +7,42 @@ p{
     font-size:20px;
 }
 
+li a {
+    text-decoration: none;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+.navItem{
+    color:#9FA3B5;
+    display: block;
+    float:left;
+    margin:10px;
+    padding:5px;
+}
+
+.navItem:hover{
+    color:#6C80AC
+}
+
+.navActive{
+    border-radius: 5px;
+    border: 1px solid #6C80AC ;
+    padding:5px;
+}
+
+.noCircle{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+}
+
 .heading{
     color:#2F55B8;
 }
-.navbar{
-    color: #1E3B76;
-    font-size: 20px;
-}
+
 
 .selfie{
     border-radius: 25px;
@@ -23,10 +52,6 @@ p{
 .introP{
     margin-left:50px;
     text-shadow: 3px 3px #1E3B76;
-}
-
-.noCircle{
-    list-style-type: none;
 }
 
 .buttonAlertHello{
