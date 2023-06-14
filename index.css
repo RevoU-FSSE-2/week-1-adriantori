@@ -20,10 +20,28 @@ p{
     border: 10px solid #6C80AC ;
 }
 
+.introP{
+    margin-left:50px;
+    text-shadow: 3px 3px #1E3B76;
+}
+
 .noCircle{
     list-style-type: none;
 }
 
+.buttonAlertHello{
+    margin-bottom:20px;
+    width:300px;
+    border-radius:10px;
+    border:5px solid #6C80AC;
+    background-color: #0A121A;
+    color:#9FA3B5
+}
+
+.buttonAlertHello:hover{
+    background-color:#9FA3B5;
+    color:#0A121A
+}
 
 .foot{
     font-size: 12px;
