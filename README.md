@@ -12,4 +12,6 @@ Creates simple profile page with Button that shows Alert function.
 3. main, for images and additional information.
 4. footer, for copyrights and proof of creator.
 
+### Website links:
+Adri Antori - Assignment Week 1: [Netlify Deploy](https://unique-faun-3b2de4.netlify.app).
 
