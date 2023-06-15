@@ -5,10 +5,20 @@ let span = document.getElementsByClassName("close")[0];
 let visitor = prompt("who arth thou?");
 
 if (visitor == "") {
-    visitor = "Anon"
+    visitor = "Anonasd"
     document.getElementById("visitor").innerText = "Anon";
 }else {
     document.getElementById("visitor").innerText = visitor;
+}
+
+function activeHome(){
+    document.getElementById("home").className = "navItem navActive";
+    document.getElementById("profile").className = "navItem";
+}
+function activeProfile(){
+    document.getElementById("home").className = "navItem";
+    document.getElementById("profile").className = "navItem navActive";
+    
 }
 
 function openModal(){
