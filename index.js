@@ -5,11 +5,9 @@ let span = document.getElementsByClassName("close")[0];
 let visitor = prompt("who arth thou?");
 
 if (visitor == "") {
-    visitor = "Anonasd"
-    document.getElementById("visitor").innerText = "Anon";
-}else {
-    document.getElementById("visitor").innerText = visitor;
+    visitor = "Anon";
 }
+document.getElementById("visitor").innerText = visitor;
 
 function activeHome(){
     document.getElementById("home").className = "navItem navActive";
