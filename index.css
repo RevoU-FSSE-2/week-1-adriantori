@@ -67,6 +67,11 @@ li a {
     background-color: #333333;
 }
 
+.navRight{
+    float:right;
+    color: #333333;
+}
+
 .heading{
     color:#2F55B8;
     font-family: 'Montserrat', sans-serif;

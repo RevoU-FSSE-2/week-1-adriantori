@@ -21,6 +21,11 @@ function activeProfile(){
     
 }
 
+function easterEgg(){
+    let audio = new Audio('images/sound.mp3');
+    audio.play();
+}
+
 function openModal(){
     modal.style.display = "block";
 }
