@@ -6,24 +6,33 @@
     <title>Week 1</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body onload="openModal()">
+    
     <nav class="navbar">
         <ul class="noCircle">
             <li><a href="#" class="navItem navActive">Home</a></li>
-            <li><a href="#" class="navItem">Profile</a></li>
+            <li><a href="#mainContent" class="navItem">Profile</a></li>
         </ul>
     </nav>
 
     <header>
+        <div id="opening">
+            <!-- Modal content -->
+            <div class="openingContent">
+              <span class="close">&times;</span>
+              <p>Welcome, <span id="visitor"></span> </p>
+            </div>
+        </div>
+        
         <h1 class="heading">Hi, My Name is Adri</h1>
-        <p>
+        <p class="heading">
             I'm freelance web developer, usually working with Bootstrap, React, CodeIgniter, and laravel. <br/>
             Currently attending classes in RevoU Software Development.
         </p>
     </header>
 
-    <main class="introduce">
-        <img class="selfie" src="images/selfie.png" alt="My Selfie Omoshiroi"/>
+    <main id="mainContent" class="introduce">
+        <img class="selfie" src="images/selfie-transparent.png" alt="My Selfie Omoshiroi"/>
         <p class="introP">Full-Stack Web Developer</p>
         <button onclick="hello()" class="buttonAlertHello">Say Hello!</button>
     </main>
